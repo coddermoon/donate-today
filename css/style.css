@@ -6,11 +6,22 @@ body{
     padding: 0;
 }
 
+
+
 h1,h2,h3,h4,h5,h6{
     font-family: 'Gentium Plus', serif;
 }
+.title{
+    font-size: 45px;
+    text-align: center;
+    font-weight: 700;
+}
 p{
     font-size: 18px;
+}
+
+.text-center{
+    text-align: center;
 }
 
 .btn {
@@ -47,4 +58,11 @@ p{
 #hero h1{
   font-size: 65px;
   font-weight: bold;
+}
+
+/* donate-area css */
+
+
+.heading p{
+    color: gray;
 }
