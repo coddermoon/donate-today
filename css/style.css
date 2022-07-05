@@ -1,6 +1,44 @@
-h1{
-    font-family: 'Gentium Plus', serif;
+/* deafult css */
+
+body{
+    font-family: 'Poppins', sans-serif;
 }
 
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Gentium Plus', serif;
+}
+p{
+    font-size: 18px;
+}
 
-/* font-family: 'Poppins', sans-serif; */
+.btn {
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 24px 0;
+}
+/*  hero section*/
+
+#hero{
+    height: 100vh;
+    background: url(../images/donation8.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+    
+}
+
+#hero h1{
+  font-size: 65px;
+  font-weight: bold;
+}
