@@ -40,15 +40,16 @@ p{
 }
 /*  hero section*/
 
-#hero{
+#hero {
     height: 100vh;
     background: url(../images/donation8.jpg);
     display: flex;
     align-items: center;
     justify-content: center;
     color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
 .container{
     width: 60%;
     margin: auto;
@@ -111,4 +112,13 @@ p{
     border: none;
     outline: none;
     border-bottom: 1px solid #B3B3B3;
+}
+
+
+
+
+/* for subscribe */
+
+.subscription-box{
+    
 }
