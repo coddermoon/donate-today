@@ -40,6 +40,10 @@ p{
     
 }
 
+.content {
+    text-align: center;
+}
+
 #hero h1{
   font-size: 65px;
   font-weight: bold;
