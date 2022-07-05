@@ -103,8 +103,6 @@ p{
 
 
 .form input {
-   
-   
     width: 80%;
     padding: 10px;
     text-align: center;
@@ -112,13 +110,21 @@ p{
     border: none;
     outline: none;
     border-bottom: 1px solid #B3B3B3;
+    background: transparent;
 }
-
 
 
 
 /* for subscribe */
 
-.subscription-box{
-    
+.subscription-box {
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    width: 82%;
+    height: 196px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
