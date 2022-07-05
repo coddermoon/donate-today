@@ -66,3 +66,32 @@ p{
 .heading p{
     color: gray;
 }
+
+.one-fifth {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2%;
+}
+
+.amount-box {
+   
+    height: 123px;
+    width: 135px;
+    border-radius: 5px;
+}
+
+.one-fifth .amount-box h4{
+    font-size: 30px;
+    color: #707070;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.active{
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+}
