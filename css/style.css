@@ -199,3 +199,7 @@ blockquote.text-center {
         width: 60%;
         margin: auto;
     }
+
+    .planbox p{
+        color: gray;
+    }
