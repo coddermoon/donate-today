@@ -80,10 +80,10 @@ p{
 }
 
 .amount-box {
-   
     height: 123px;
     width: 135px;
     border-radius: 5px;
+    background: lightgray;
 }
 
 .one-fifth .amount-box h4{
