@@ -42,7 +42,7 @@ p{
 
 #hero {
     height: 100vh;
-    background: url(../images/donation8.jpg);
+    background: url(../images/donation7.jpg);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -179,4 +179,23 @@ blockquote.text-center {
     .red-type{
         background: #ff59591a;
         border: 2px solid #FF5959;
+    }
+
+    /* optional section */
+
+    .connect{
+        border-radius: 0;
+        padding: 0 10px 0 0;
+    }
+
+    .connect img{
+        max-width: 100%;
+    }
+
+    #joinWithMe .container{
+        width: 90%;
+    }
+    #joinWithMe .heading{
+        width: 60%;
+        margin: auto;
     }
